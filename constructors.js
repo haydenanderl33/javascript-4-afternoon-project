@@ -144,7 +144,7 @@ function Employee(name, email, hireDate) {
   //   this.savedPosts[i].rating
   // }
   User.prototype.changePostRating = function(param1, param2){
-    for(let i =0; i < this.savedPosts.length; i++){
+    for(let i = 0; i < this.savedPosts.length; i++){
       if(this.savedPosts[i].id === param1){
         this.savedPosts[i].rating = param2
       }
