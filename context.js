@@ -65,7 +65,7 @@ let who = {
 }
 
 //Code Here
-
+let whoSaysHi = sayHi.bind(who)
 
 ////////// PROBLEM 4 //////////
 
